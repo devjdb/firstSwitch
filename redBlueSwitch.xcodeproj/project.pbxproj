@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDCAC5A41C3146C400623882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCAC5A31C3146C400623882 /* AppDelegate.swift */; };
+		FDCAC5A61C3146C400623882 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCAC5A51C3146C400623882 /* ViewController.swift */; };
+		FDCAC5A91C3146C400623882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCAC5A71C3146C400623882 /* Main.storyboard */; };
+		FDCAC5AB1C3146C400623882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCAC5AA1C3146C400623882 /* Assets.xcassets */; };
+		FDCAC5AE1C3146C400623882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCAC5AC1C3146C400623882 /* LaunchScreen.storyboard */; };
+		FDCAC5B91C3146C400623882 /* redBlueSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCAC5B81C3146C400623882 /* redBlueSwitchTests.swift */; };
+		FDCAC5C41C3146C400623882 /* redBlueSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDCAC5C31C3146C400623882 /* redBlueSwitchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDCAC5B51C3146C400623882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCAC5981C3146C400623882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCAC59F1C3146C400623882;
+			remoteInfo = redBlueSwitch;
+		};
+		FDCAC5C01C3146C400623882 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDCAC5981C3146C400623882 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDCAC59F1C3146C400623882;
+			remoteInfo = redBlueSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDCAC5A01C3146C400623882 /* redBlueSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = redBlueSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCAC5A31C3146C400623882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDCAC5A51C3146C400623882 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDCAC5A81C3146C400623882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDCAC5AA1C3146C400623882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDCAC5AD1C3146C400623882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDCAC5AF1C3146C400623882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCAC5B41C3146C400623882 /* redBlueSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redBlueSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCAC5B81C3146C400623882 /* redBlueSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redBlueSwitchTests.swift; sourceTree = "<group>"; };
+		FDCAC5BA1C3146C400623882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDCAC5BF1C3146C400623882 /* redBlueSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = redBlueSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDCAC5C31C3146C400623882 /* redBlueSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = redBlueSwitchUITests.swift; sourceTree = "<group>"; };
+		FDCAC5C51C3146C400623882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDCAC59D1C3146C400623882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCAC5B11C3146C400623882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCAC5BC1C3146C400623882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDCAC5971C3146C400623882 = {
+			isa = PBXGroup;
+			children = (
+				FDCAC5A21C3146C400623882 /* redBlueSwitch */,
+				FDCAC5B71C3146C400623882 /* redBlueSwitchTests */,
+				FDCAC5C21C3146C400623882 /* redBlueSwitchUITests */,
+				FDCAC5A11C3146C400623882 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDCAC5A11C3146C400623882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDCAC5A01C3146C400623882 /* redBlueSwitch.app */,
+				FDCAC5B41C3146C400623882 /* redBlueSwitchTests.xctest */,
+				FDCAC5BF1C3146C400623882 /* redBlueSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDCAC5A21C3146C400623882 /* redBlueSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				FDCAC5A31C3146C400623882 /* AppDelegate.swift */,
+				FDCAC5A51C3146C400623882 /* ViewController.swift */,
+				FDCAC5A71C3146C400623882 /* Main.storyboard */,
+				FDCAC5AA1C3146C400623882 /* Assets.xcassets */,
+				FDCAC5AC1C3146C400623882 /* LaunchScreen.storyboard */,
+				FDCAC5AF1C3146C400623882 /* Info.plist */,
+			);
+			path = redBlueSwitch;
+			sourceTree = "<group>";
+		};
+		FDCAC5B71C3146C400623882 /* redBlueSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDCAC5B81C3146C400623882 /* redBlueSwitchTests.swift */,
+				FDCAC5BA1C3146C400623882 /* Info.plist */,
+			);
+			path = redBlueSwitchTests;
+			sourceTree = "<group>";
+		};
+		FDCAC5C21C3146C400623882 /* redBlueSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDCAC5C31C3146C400623882 /* redBlueSwitchUITests.swift */,
+				FDCAC5C51C3146C400623882 /* Info.plist */,
+			);
+			path = redBlueSwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDCAC59F1C3146C400623882 /* redBlueSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCAC5C81C3146C400623882 /* Build configuration list for PBXNativeTarget "redBlueSwitch" */;
+			buildPhases = (
+				FDCAC59C1C3146C400623882 /* Sources */,
+				FDCAC59D1C3146C400623882 /* Frameworks */,
+				FDCAC59E1C3146C400623882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = redBlueSwitch;
+			productName = redBlueSwitch;
+			productReference = FDCAC5A01C3146C400623882 /* redBlueSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDCAC5B31C3146C400623882 /* redBlueSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCAC5CB1C3146C400623882 /* Build configuration list for PBXNativeTarget "redBlueSwitchTests" */;
+			buildPhases = (
+				FDCAC5B01C3146C400623882 /* Sources */,
+				FDCAC5B11C3146C400623882 /* Frameworks */,
+				FDCAC5B21C3146C400623882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCAC5B61C3146C400623882 /* PBXTargetDependency */,
+			);
+			name = redBlueSwitchTests;
+			productName = redBlueSwitchTests;
+			productReference = FDCAC5B41C3146C400623882 /* redBlueSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FDCAC5BE1C3146C400623882 /* redBlueSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDCAC5CE1C3146C400623882 /* Build configuration list for PBXNativeTarget "redBlueSwitchUITests" */;
+			buildPhases = (
+				FDCAC5BB1C3146C400623882 /* Sources */,
+				FDCAC5BC1C3146C400623882 /* Frameworks */,
+				FDCAC5BD1C3146C400623882 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDCAC5C11C3146C400623882 /* PBXTargetDependency */,
+			);
+			name = redBlueSwitchUITests;
+			productName = redBlueSwitchUITests;
+			productReference = FDCAC5BF1C3146C400623882 /* redBlueSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDCAC5981C3146C400623882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = jdblake;
+				TargetAttributes = {
+					FDCAC59F1C3146C400623882 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					FDCAC5B31C3146C400623882 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FDCAC59F1C3146C400623882;
+					};
+					FDCAC5BE1C3146C400623882 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FDCAC59F1C3146C400623882;
+					};
+				};
+			};
+			buildConfigurationList = FDCAC59B1C3146C400623882 /* Build configuration list for PBXProject "redBlueSwitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDCAC5971C3146C400623882;
+			productRefGroup = FDCAC5A11C3146C400623882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDCAC59F1C3146C400623882 /* redBlueSwitch */,
+				FDCAC5B31C3146C400623882 /* redBlueSwitchTests */,
+				FDCAC5BE1C3146C400623882 /* redBlueSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDCAC59E1C3146C400623882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCAC5AE1C3146C400623882 /* LaunchScreen.storyboard in Resources */,
+				FDCAC5AB1C3146C400623882 /* Assets.xcassets in Resources */,
+				FDCAC5A91C3146C400623882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCAC5B21C3146C400623882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCAC5BD1C3146C400623882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDCAC59C1C3146C400623882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCAC5A61C3146C400623882 /* ViewController.swift in Sources */,
+				FDCAC5A41C3146C400623882 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCAC5B01C3146C400623882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCAC5B91C3146C400623882 /* redBlueSwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDCAC5BB1C3146C400623882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCAC5C41C3146C400623882 /* redBlueSwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDCAC5B61C3146C400623882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCAC59F1C3146C400623882 /* redBlueSwitch */;
+			targetProxy = FDCAC5B51C3146C400623882 /* PBXContainerItemProxy */;
+		};
+		FDCAC5C11C3146C400623882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDCAC59F1C3146C400623882 /* redBlueSwitch */;
+			targetProxy = FDCAC5C01C3146C400623882 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDCAC5A71C3146C400623882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCAC5A81C3146C400623882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDCAC5AC1C3146C400623882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDCAC5AD1C3146C400623882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDCAC5C61C3146C400623882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDCAC5C71C3146C400623882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDCAC5C91C3146C400623882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = redBlueSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdblake.redBlueSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FDCAC5CA1C3146C400623882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = redBlueSwitch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdblake.redBlueSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FDCAC5CC1C3146C400623882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = redBlueSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdblake.redBlueSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redBlueSwitch.app/redBlueSwitch";
+			};
+			name = Debug;
+		};
+		FDCAC5CD1C3146C400623882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = redBlueSwitchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdblake.redBlueSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/redBlueSwitch.app/redBlueSwitch";
+			};
+			name = Release;
+		};
+		FDCAC5CF1C3146C400623882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = redBlueSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdblake.redBlueSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = redBlueSwitch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FDCAC5D01C3146C400623882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = redBlueSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdblake.redBlueSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = redBlueSwitch;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDCAC59B1C3146C400623882 /* Build configuration list for PBXProject "redBlueSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCAC5C61C3146C400623882 /* Debug */,
+				FDCAC5C71C3146C400623882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDCAC5C81C3146C400623882 /* Build configuration list for PBXNativeTarget "redBlueSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCAC5C91C3146C400623882 /* Debug */,
+				FDCAC5CA1C3146C400623882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDCAC5CB1C3146C400623882 /* Build configuration list for PBXNativeTarget "redBlueSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCAC5CC1C3146C400623882 /* Debug */,
+				FDCAC5CD1C3146C400623882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDCAC5CE1C3146C400623882 /* Build configuration list for PBXNativeTarget "redBlueSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDCAC5CF1C3146C400623882 /* Debug */,
+				FDCAC5D01C3146C400623882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDCAC5981C3146C400623882 /* Project object */;
+}
